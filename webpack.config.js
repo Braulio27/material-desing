@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     static: "./src",
   },
-  entry: ['./app.scss', './app.js'],
+  entry: ['./src/sass/app.scss', './app.js'],
   output: {
     filename: 'bundle.js',
   },
